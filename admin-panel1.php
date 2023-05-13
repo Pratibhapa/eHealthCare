@@ -235,6 +235,23 @@ if(isset($_POST['docsub1']))
                   </div>
                 </div>
                 </div>
+
+
+                <div class="row">
+                <div class="col-sm-8" style="left: 13%;margin-top: 5%;">
+                  <div class="panel panel-white no-radius text-center">
+                    <div class="panel-body" >
+                      <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-list-ul fa-stack-1x fa-inverse"></i> </span>
+                      <h4 class="StepTitle" style="margin-top: 5%;">Insurance List</h4>
+                    
+                      <p class="cl-effect-1">
+                        <a href="#list-pres" onclick="clickDiv('#list-pres-list')">
+                          View Patient's Insurance
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
                         
 
       
@@ -507,6 +524,9 @@ if(isset($_POST['docsub1']))
                       <option value="Cardiologist" name="spec">Cardiologist</option>
                       <option value="Neurologist" name="spec">Neurologist</option>
                       <option value="Pediatrician" name="spec">Pediatrician</option>
+                      <option value="Pediatrician" name="spec">Radiologist</option>
+                      <option value="Pediatrician" name="spec">Dermatologist</option>
+                      
                     </select>
                     </div><br><br>
                   <div class="col-md-4"><label>Email ID:</label></div>
