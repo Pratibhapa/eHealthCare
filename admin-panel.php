@@ -325,7 +325,7 @@ function get_specs(){
                           <label for="spec">Specialization:</label>
                         </div>
                         <div class="col-md-8">
-                          <select name="spec" class="form-control" id="spec">
+                          <select name="spec" class="form-control" id="spec" required>
                               <option value="" disabled selected>Select Specialization</option>
                               <?php 
                               display_specs();
@@ -422,7 +422,7 @@ function get_specs(){
                   </div><br><br>
 
                   <div class="col-md-4"><label>Appointment Date</label></div>
-                  <div class="col-md-8"><input type="date" class="form-control datepicker" name="appdate"></div><br><br>
+                  <div class="col-md-8"><input type="date" class="form-control datepicker" name="appdate" required></div><br><br>
 
                   <div class="col-md-4"><label>Appointment Time</label></div>
                   <div class="col-md-8">
