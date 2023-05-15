@@ -44,7 +44,6 @@ function checklen()
 }
 
 </script>
-
 </head>
 
 <!------ Include the above in your HEAD tag ---------->
