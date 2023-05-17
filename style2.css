@@ -44,3 +44,17 @@
     margin-left: 60%;
     color: white;
 }
+
+footer{
+    background-color: #00c6ff;
+    text-decoration-color: #fff;
+}
+
+.footer {
+    padding-top: 30px;
+    background-color: black;
+    text-align: center;
+    color: grey;
+    margin-top: 50px;
+  }
+

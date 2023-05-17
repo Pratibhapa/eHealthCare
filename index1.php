@@ -34,7 +34,7 @@ include("header.php");
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" >
     <div class="container">
 
-      <a class="navbar-brand js-scroll-trigger" href="index.php" style="margin-top: 10px;margin-left:-65px;font-family: 'IBM Plex Sans', sans-serif;"><h4><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp eHealthCare</h4></a>
+      <a class="navbar-brand js-scroll-trigger" href="index.php" style="margin-top: 10px;margin-left:-65px;font-family: 'IBM Plex Sans', sans-serif;"><h4><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp CareTech</h4></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -148,12 +148,29 @@ include("header.php");
                                 
 
 
+                                <div class="text-left"><a href="index.php">Do you have an Insurancet?</a></div><br>
+                                <div class="col-md-6">
+                                <div class="form-group">
+                                            <div class="maxl">
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="insurance" value="Yes" checked>
+                                                    <span>Yes </span> 
+                                                </label>
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="insurance" value="No">
+                                                    <span>No </span> 
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+
                                 <div class="text-left"><a href="index.php">Already have an account?</a></div><br>
 
                                 <div class=""><input type="submit" class="btn btn-primary btn-lg btn-block btnRegister" name="patsub1" onclick="return checklen();" value="Register"/></div>
 
                             </form>
-            </center>
+           </center>
             </div>
           </div>
         </div>

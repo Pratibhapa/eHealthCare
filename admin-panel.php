@@ -126,7 +126,7 @@ if(isset($_GET["generate_bill"])){
 
   $content .= '
       <br/>
-      <h2 align ="center"> eHealthCare</h2></br>
+      <h2 align ="center"> CareTech</h2></br>
       <h3 align ="center"> Bill</h3>
       
 
@@ -178,7 +178,7 @@ function get_specs(){
     
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
       <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-  <a class="navbar-brand" href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> eHealthCare </a>
+  <a class="navbar-brand" href="#"><i class="fa fa-user-plus" aria-hidden="true"></i> CareTech </a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -325,7 +325,7 @@ function get_specs(){
                           <label for="spec">Specialization:</label>
                         </div>
                         <div class="col-md-8">
-                          <select name="spec" class="form-control" id="spec">
+                          <select name="spec" class="form-control" id="spec" required>
                               <option value="" disabled selected>Select Specialization</option>
                               <?php 
                               display_specs();
@@ -422,7 +422,7 @@ function get_specs(){
                   </div><br><br>
 
                   <div class="col-md-4"><label>Appointment Date</label></div>
-                  <div class="col-md-8"><input type="date" class="form-control datepicker" name="appdate"></div><br><br>
+                  <div class="col-md-8"><input type="date" class="form-control datepicker" name="appdate" required></div><br><br>
 
                   <div class="col-md-4"><label>Appointment Time</label></div>
                   <div class="col-md-8">
