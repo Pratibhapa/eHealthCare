@@ -121,6 +121,11 @@ if(isset($_POST['docsub1']))
   </div>
 </nav>
   </head>
+
+
+
+<!-- DASHBOARD -->
+
   <style type="text/css">
     button:hover{cursor:pointer;}
     #inputbtn:hover{cursor:pointer;}
@@ -141,16 +146,19 @@ if(isset($_POST['docsub1']))
       <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Delete Doctor</a>
       <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Add Employee</a>
       <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Delete Employee </a>
-      <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Insurancer</a>
+      <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Insurance</a>
       <a class="list-group-item list-group-item-action" href="#list-mes" id="list-mes-list"  role="tab" data-toggle="list" aria-controls="home">Queries</a>
       
     </div><br>
   </div>
+
+
+  <!-- WELCOME ADMIN -->
   <div class="col-md-8" style="margin-top: 3%;">
     <div class="tab-content" id="nav-tabContent" style="width: 950px;">
 
 
-
+<!-- DOCTOR LIST -->
       <div class="tab-pane fade show active" id="list-dash" role="tabpanel" aria-labelledby="list-dash-list">
         <div class="container-fluid container-fullw bg-white" >
               <div class="row">
@@ -173,6 +181,7 @@ if(isset($_POST['docsub1']))
                   </div>
                 </div>
 
+<!-- PATIENT LIST -->
                 <div class="col-sm-4" style="left: -3%">
                   <div class="panel panel-white no-radius text-center">
                     <div class="panel-body" >
@@ -188,7 +197,7 @@ if(isset($_POST['docsub1']))
                   </div>
                 </div>
               
-
+<!-- APPOINTMENT DETAILS -->
                 <div class="col-sm-4">
                   <div class="panel panel-white no-radius text-center">
                     <div class="panel-body" >
@@ -205,8 +214,9 @@ if(isset($_POST['docsub1']))
                 </div>
                 </div>
 
+<!-- PRESCRIPTION LIST -->
                 <div class="row">
-                <div class="col-sm-4" style="left: 13%;margin-top: 5%;">
+                <div class="col-sm-4" style="left: 0%;margin-top: 5%;">
                   <div class="panel panel-white no-radius text-center">
                     <div class="panel-body" >
                       <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-list-ul fa-stack-1x fa-inverse"></i> </span>
@@ -221,8 +231,8 @@ if(isset($_POST['docsub1']))
                   </div>
                 </div>
 
-
-                <div class="col-sm-4" style="left: 18%;margin-top: 5%">
+<!-- MANAGE DOCTORS -->
+                <div class="col-sm-4" style="left: -3%;margin-top: 5%">
                   <div class="panel panel-white no-radius text-center">
                     <div class="panel-body" >
                       <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-plus fa-stack-1x fa-inverse"></i> </span>
@@ -238,10 +248,46 @@ if(isset($_POST['docsub1']))
                     </div>
                   </div>
                 </div>
+
+
+<!-- EMPLOYEE LIST -->
+                <div class="col-sm-4" style="left: -3%;margin-top: 5%">
+                  <div class="panel panel-white no-radius text-center">
+                    <div class="panel-body" >
+                      <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
+                      <h4 class="StepTitle" style="margin-top: 5%;">Employee List</h4>
+                      
+                      <p class="cl-effect-1">
+                        <a href="#app-hist" onclick="clickDiv('#list-pat-list')">
+                          View Employee
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
                 </div>
                 
+<!-- MANAGE EMPLOYEE -->
+                 <div class="row">
+                 <div class="col-sm-4" style="left: 12%;margin-top: 5%">
+                  <div class="panel panel-white no-radius text-center">
+                    <div class="panel-body" >
+                      <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-plus fa-stack-1x fa-inverse"></i> </span>
+                      <h4 class="StepTitle" style="margin-top: 5%;">Manage Employee</h4>
+                    
+                      <p class="cl-effect-1">
+                        <a href="#app-hist" onclick="clickDiv('#list-adoc-list')">Add Employee</a>
+                        &nbsp|
+                        <a href="#app-hist" onclick="clickDiv('#list-ddoc-list')">
+                          Delete Employee
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
 
-                <div class="col-sm-8" style="left: 18%;margin-top: 5%">
+<!-- INSURANCE LIST -->
+                <div class="col-sm-4" style="left: 18%;margin-top: 5%">
                   <div class="panel panel-white no-radius text-center">
                     <div class="panel-body" >
                       <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
@@ -255,25 +301,7 @@ if(isset($_POST['docsub1']))
                     </div>
                   </div>
                 </div>
-
-                <div class="col-sm-8" style="left: 18%;margin-top: 5%">
-                  <div class="panel panel-white no-radius text-center">
-                    <div class="panel-body" >
-                      <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
-                      <h4 class="StepTitle" style="margin-top: 5%;">Insurance List</h4>
-                      
-                      <p class="cl-effect-1">
-                        <a href="#app-hist" onclick="clickDiv('#list-pat-list')">
-                          View Patients Insurance
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                        
-
-      
-                
+                 </div>    
               </div>
             </div>
       
