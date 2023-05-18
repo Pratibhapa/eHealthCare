@@ -109,6 +109,8 @@ include("header.php");
                                             </div>
                                         </div>
                                     </div>
+
+                                    
                                 
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -121,10 +123,30 @@ include("header.php");
                                         <div class="form-group">
                                             <input type="password" class="form-control"  id="cpassword" placeholder="Confirm Password *" name="cpassword"  onkeyup='check();' required/><span id='message'></span>
                                         </div>
-                                    </div>  
-                                       
-
+                                    </div> 
                                 </div>
+
+                                <div class="col-md-12">
+                                <div class="text-left"><a href="index.php">Do you have an Insurance?</a></div><br>
+                                <div class="form-group">
+                                            <div class="maxl">
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="insurance" value="Yes" checked>
+                                                    <span>Yes </span> 
+                                                </label>
+                                                <label class="radio inline"> 
+                                                    <input type="radio" name="insurance" value="No">
+                                                    <span>No </span> 
+                                                </label>
+                                            </div>
+                                        </div>
+                                </div>
+                                
+                                
+                                
+
+                                
+
 
                                 <div class="text-left"><a href="index.php">Do you have an Insurancet?</a></div><br>
                                 <div class="col-md-6">
