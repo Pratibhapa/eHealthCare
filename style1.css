@@ -103,3 +103,8 @@ footer{
     background-color: #00c6ff;
     text-decoration-color: #fff;
 }
+
+.whyus_item img {
+    width: 88px;
+    height: 80px;
+  }
