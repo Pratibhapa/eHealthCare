@@ -141,28 +141,6 @@ include("header.php");
                                             </div>
                                         </div>
                                 </div>
-                                
-                                
-                                
-
-                                
-
-
-                                <div class="text-left"><a href="index.php">Do you have an Insurancet?</a></div><br>
-                                <div class="col-md-6">
-                                <div class="form-group">
-                                            <div class="maxl">
-                                                <label class="radio inline"> 
-                                                    <input type="radio" name="insurance" value="Yes" checked>
-                                                    <span>Yes </span> 
-                                                </label>
-                                                <label class="radio inline"> 
-                                                    <input type="radio" name="insurance" value="No">
-                                                    <span>No </span> 
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </form>
 
                                 <div class="text-left"><a href="index.php">Already have an account?</a></div><br>
