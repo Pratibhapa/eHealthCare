@@ -4,7 +4,6 @@
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 <link rel="stylesheet" type="text/css" href="style1.css">
 <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -115,7 +114,8 @@ function checklen()
                                         <div class="form-group">
                                             <input type="password" class="form-control" name="password2" placeholder="enter password" required/>
                                         </div>
-                                        <input type="submit" name="patsub" value="Login" class="btnRegister">
+                                        <input type="submit" name="patsub" value="Login" onclick="window.location.replace('index.php')" class="btnRegister">
+
                                         <!-- <input type="submit" class="btnRegister" name="docsub1" value="Login"/> -->
                                     </div>
                                 </div>
