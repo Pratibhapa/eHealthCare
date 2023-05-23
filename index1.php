@@ -128,7 +128,7 @@ include("header.php");
 
                                 <div class="text-left"><a href="index.php">Already have an account?</a></div><br>
 
-                                <div class=""><input type="submit" class="btn btn-primary btn-lg btn-block btnRegister" name="patsub1" onclick="return checklen();" value="Register"/></div>
+                                <div class=""><input type="submit" class="btn btn-primary btn-lg btn-block btnRegister" name="patsub1" onclick="window.location.replace('index.php')" value="Register"/></div>
 
                             </form>
            </center>
