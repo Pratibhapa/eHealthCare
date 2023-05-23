@@ -146,7 +146,6 @@ if(isset($_POST['docsub1']))
       <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Delete Doctor</a>
       <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Add Employee</a>
       <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Delete Employee </a>
-      <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Insurance</a>
       <a class="list-group-item list-group-item-action" href="#list-mes" id="list-mes-list"  role="tab" data-toggle="list" aria-controls="home">Queries</a>
       
     </div><br>
@@ -285,33 +284,6 @@ if(isset($_POST['docsub1']))
                     </div>
                   </div>
                 </div>
-
-<!-- INSURANCE LIST -->
-                <div class="col-sm-4" style="left: 18%;margin-top: 5%">
-                  <div class="panel panel-white no-radius text-center">
-                    <div class="panel-body" >
-                      <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
-                      <h4 class="StepTitle" style="margin-top: 5%;">Insurance List</h4>
-                      
-                      <p class="cl-effect-1">
-                        <a href="#app-hist" onclick="clickDiv('#list-pat-list')">
-                          View Patients Insurance
-                        </a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                 </div>    
-              </div>
-            </div>
-      
-                
-      
-
-
-
-
-
 
       <div class="tab-pane fade" id="list-doc" role="tabpanel" aria-labelledby="list-home-list">
               

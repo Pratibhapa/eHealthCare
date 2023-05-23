@@ -45,7 +45,6 @@ function checklen()
 </script>
 </head>
 
-<!------ Include the above in your HEAD tag ---------->
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" >
     <div class="container">
@@ -79,7 +78,7 @@ function checklen()
                     <div class="col-md-3 register-left" style="margin-top: 10%;right: 5%">
                         
                         <h1>Welcome</h1>
-                       
+                        <img src="images/hospital.png" alt="" style="width: 70%;padding-left: 10px;margin-top: 40px;margin-left: 10px;margin-bottom:50px">
                     </div>
                     <div class="col-md-9 register-right" style="margin-top: 50px;left: 80px;">
                         <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist" style="width: 50%;">
@@ -116,7 +115,6 @@ function checklen()
                                         </div>
                                         <input type="submit" name="patsub" value="Login" onclick="window.location.replace('index.php')" class="btnRegister">
 
-                                        <!-- <input type="submit" class="btnRegister" name="docsub1" value="Login"/> -->
                                     </div>
                                 </div>
                             </form>
