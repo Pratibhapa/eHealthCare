@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../../projects/hospital"
+		},
+		{
+			"name": "eHealthCare",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
