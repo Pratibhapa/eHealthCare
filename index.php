@@ -4,7 +4,6 @@
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png" />
 <link rel="stylesheet" type="text/css" href="style1.css">
 <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -46,7 +45,6 @@ function checklen()
 </script>
 </head>
 
-<!------ Include the above in your HEAD tag ---------->
 <body>
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" >
     <div class="container">
@@ -80,7 +78,7 @@ function checklen()
                     <div class="col-md-3 register-left" style="margin-top: 10%;right: 5%">
                         
                         <h1>Welcome</h1>
-                       
+                        <img src="images/hospital.png" alt="" style="width: 70%;padding-left: 10px;margin-top: 40px;margin-left: 10px;margin-bottom:50px">
                     </div>
                     <div class="col-md-9 register-right" style="margin-top: 50px;left: 80px;">
                         <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist" style="width: 50%;">
@@ -115,8 +113,8 @@ function checklen()
                                         <div class="form-group">
                                             <input type="password" class="form-control" name="password2" placeholder="enter password" required/>
                                         </div>
-                                        <input type="submit" name="patsub" value="Login" class="btnRegister">
-                                        <!-- <input type="submit" class="btnRegister" name="docsub1" value="Login"/> -->
+                                        <input type="submit" name="patsub" value="Login" onclick="window.location.replace('index.php')" class="btnRegister">
+
                                     </div>
                                 </div>
                             </form>

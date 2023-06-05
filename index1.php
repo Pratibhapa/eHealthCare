@@ -8,7 +8,6 @@ include("header.php");
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
@@ -125,49 +124,11 @@ include("header.php");
                                         </div>
                                     </div> 
                                 </div>
-
-                                <div class="col-md-12">
-                                <div class="text-left"><a href="index.php">Do you have an Insurance?</a></div><br>
-                                <div class="form-group">
-                                            <div class="maxl">
-                                                <label class="radio inline"> 
-                                                    <input type="radio" name="insurance" value="Yes" checked>
-                                                    <span>Yes </span> 
-                                                </label>
-                                                <label class="radio inline"> 
-                                                    <input type="radio" name="insurance" value="No">
-                                                    <span>No </span> 
-                                                </label>
-                                            </div>
-                                        </div>
-                                </div>
-                                
-                                
-                                
-
-                                
-
-
-                                <div class="text-left"><a href="index.php">Do you have an Insurancet?</a></div><br>
-                                <div class="col-md-6">
-                                <div class="form-group">
-                                            <div class="maxl">
-                                                <label class="radio inline"> 
-                                                    <input type="radio" name="insurance" value="Yes" checked>
-                                                    <span>Yes </span> 
-                                                </label>
-                                                <label class="radio inline"> 
-                                                    <input type="radio" name="insurance" value="No">
-                                                    <span>No </span> 
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </form>
 
                                 <div class="text-left"><a href="index.php">Already have an account?</a></div><br>
 
-                                <div class=""><input type="submit" class="btn btn-primary btn-lg btn-block btnRegister" name="patsub1" onclick="return checklen();" value="Register"/></div>
+                                <div class=""><input type="submit" class="btn btn-primary btn-lg btn-block btnRegister" name="patsub1" onclick="window.location.replace('index.php')" value="Register"/></div>
 
                             </form>
            </center>
@@ -179,12 +140,6 @@ include("header.php");
       </div>
     </div>
 
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>

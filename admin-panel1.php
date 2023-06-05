@@ -147,6 +147,8 @@ if(isset($_POST['docsub1']))
       <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-emp-list"  role="tab" data-toggle="list" aria-controls="home">Add Employee</a>
       <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-emp-list"  role="tab" data-toggle="list" aria-controls="home">Delete Employee </a>
       <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-inc-list"  role="tab" data-toggle="list" aria-controls="home">Insurance</a>
+      <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Add Employee</a>
+      <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Delete Employee </a>
       <a class="list-group-item list-group-item-action" href="#list-mes" id="list-mes-list"  role="tab" data-toggle="list" aria-controls="home">Queries</a>
       
     </div><br>
@@ -303,7 +305,8 @@ if(isset($_POST['docsub1']))
       
                 
 <!-- DOCTORS SPECIALIZATION -->
-      <div class="tab-pane fade" id="list-doc" role="tabpanel" aria-labelledby="list-home-list">            
+      <div class="tab-pane fade" id="list-doc" role="tabpanel" aria-labelledby="list-home-list">          
+      <div class="tab-pane fade" id="list-doc" role="tabpanel" aria-labelledby="list-home-list">
               <div class="col-md-8">
       <form class="form-group" action="doctorsearch.php" method="post">
         <div class="row">
