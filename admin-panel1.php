@@ -145,10 +145,8 @@ if(isset($_POST['docsub1']))
       <a class="list-group-item list-group-item-action" href="#list-settings" id="list-adoc-list"  role="tab" data-toggle="list" aria-controls="home">Add Doctor</a>
       <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Delete Doctor</a>
       <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-emp-list"  role="tab" data-toggle="list" aria-controls="home">Add Employee</a>
-      <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-emp-list"  role="tab" data-toggle="list" aria-controls="home">Delete Employee </a>
+      <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-demp-list"  role="tab" data-toggle="list" aria-controls="home">Delete Employee </a>
       <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-inc-list"  role="tab" data-toggle="list" aria-controls="home">Insurance</a>
-      <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Add Employee</a>
-      <a class="list-group-item list-group-item-action" href="#list-settings1" id="list-ddoc-list"  role="tab" data-toggle="list" aria-controls="home">Delete Employee </a>
       <a class="list-group-item list-group-item-action" href="#list-mes" id="list-mes-list"  role="tab" data-toggle="list" aria-controls="home">Queries</a>
       
     </div><br>
@@ -243,9 +241,7 @@ if(isset($_POST['docsub1']))
                       <p class="cl-effect-1">
                         <a href="#app-hist" onclick="clickDiv('#list-adoc-list')">Add Doctors</a>
                         &nbsp|
-                        <a href="#app-hist" onclick="clickDiv('#list-ddoc-list')">
-                          Delete Doctors
-                        </a>
+                        <a href="#app-hist" onclick="clickDiv('#list-ddoc-list')">Delete Doctors</a>
                       </p>
                     </div>
                   </div>
@@ -279,7 +275,7 @@ if(isset($_POST['docsub1']))
                       <p class="cl-effect-1">
                         <a href="#app-hist" onclick="clickDiv('#list-emp-list')">Add Employee</a>
                         &nbsp|
-                        <a href="#app-hist" onclick="clickDiv('#list-emp-list')">Delete Employee</a>
+                        <a href="#app-hist" onclick="clickDiv('#list-demp-list')">Delete Employee</a>
                       </p>
                     </div>
                   </div>
@@ -302,7 +298,21 @@ if(isset($_POST['docsub1']))
                  </div>    
               </div>
             </div>
-      
+<!-- QUERIES -->
+<div class="col-sm-4" style="left: -3%;margin-top: 5%">
+                  <div class="panel panel-white no-radius text-center">
+                    <div class="panel-body" >
+                      <span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
+                      <h4 class="StepTitle" style="margin-top: 5%;">Queries</h4>                      
+                      <p class="cl-effect-1">
+                        <a href="#app-hist" onclick="clickDiv('#list-mes-list')">
+                          View Queries
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                </div>
                 
 <!-- DOCTORS SPECIALIZATION -->
       <div class="tab-pane fade" id="list-doc" role="tabpanel" aria-labelledby="list-home-list">          
